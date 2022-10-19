@@ -1,7 +1,7 @@
-## Challenge Description:
+### Challenge Description:
 - the administrator put the backup file in the same root folder as the application, help us download this backup by retrieving the backup file name
 
-## Methodology:
+### Methodology:
  - The website is an email field with send button and after submitting the email is show up a message says that your email has been saved successfully.
  - After I read the challenge description I started with fuzzing the root directory to find the backup file, So I created a backup files wordlist and I fuzzed the website but got no positive results.
  - I tried to submit a random string, tested for SQLi and also XSS in email field but their was a filter .
